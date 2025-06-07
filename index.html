@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Ulang Tahun, ekeeee</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <audio id="bg-music" autoplay loop>
+    <source src="audio/good_time.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container" id="intro">
+    <h1>Selamatttt Ulangggg Tahunnnn, ekeee ✨</h1>
+    <p>
+      baiklahhh iniii saattt nyaaaa untukkk mengatakannn beberapaaa hal yangg pentingg pentingg ajaaa:  <br><br>
+      “udaaa waktuuuu nyaaaa kauuu jadiii tuaaaa nambahhh satuuuu levell 
+        (tapii tetap imuttt dan lucuuu dimataaa kuuuu heheee). 
+        semogaaaa makinnnn lucuuu imuttt cantikkk semuaaa semuaaa,
+        makinnnn bolottt ehhh gaaa jangannn, jangannn makinnn bolottt, dan 
+        semogaaa kebahagiaannn menyertaii muuuu, gaaa boleee sedihhh sedihhh, kurangiii nangisss nyaaaa,
+        anakkk lasakkk harusss senyum terusss ketawaaaa terusss dahhh ituuu ajaaa”
+    </p>
+    <button id="start-btn">Mulai Perjalanan</button>
+  </div>
+
+  <div class="sky hidden" id="langit">
+    <h2>fotoo - fotoo sii palingg lucuuu 🤩</h2>
+    <p>klikkk fotooo nyaaaa satuuuu - satuuuu, akuuuu nitip banyaaaa kataaaa di tiap senyum muuuu ✉️</p>
+
+    <div class="clouds">
+      <img src="image/spesial.jpg" alt="cloud1" class="cloud" data-message="1">
+      <img src="image/ekeee_lagi.jpg" alt="cloud2" class="cloud" data-message="2">
+      <img src="image/lagi_lagi_ekeee.jpg" alt="cloud3" class="cloud" data-message="3">
+    </div>
+
+    <div class="after-clouds">
+      dariii orangg yang palingg seringg gangguinnn kauuuu<br>
+      tapiii akuuu selaluuu doainnn yang terbaikkk untukkk muuuu 💫
+    </div>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <span class="close-btn">&times;</span>
+      <p id="message-text"></p>
+    </div>
+  </div>
+
+
+  <script src="main.js"></script>
+</body>
+</html>
